@@ -1,10 +1,10 @@
 module github.com/okyer/gorm4gaussdb
 
-go 1.22.2
+go 1.19
 
 require (
 	gitee.com/opengauss/openGauss-connector-go-pq v1.0.4
-	github.com/jackc/pgx/v5 v5.7.1
+	github.com/jackc/pgx/v5 v5.5.5
 	gorm.io/gorm v1.25.12
 )
 
